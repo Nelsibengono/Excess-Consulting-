@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EXCESS CONSULTING GROUPE S.A – Cabinet d'expertise en audit, conformité et conseil en assurances en Afrique centrale et zone CIMA.">
+    <title>EXCESS CONSULTING GROUPE S.A | Audit & Conseil en Assurances</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<!-- PRELOADER -->
+<div id="preloader">
+    <div class="loader"></div>
+</div>
+
+<!-- NAV -->
+<nav id="navbar">
+    <div class="container">
+        <a href="#accueil" class="logo"> EXCESS <span>CONSULTING</span></a>
+        <ul class="nav-links">
+            <li><a href="#accueil" class="active">Accueil</a></li>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#secteurs">Secteurs</a></li>
+            <li><a href="#atouts">Atouts</a></li>
+            <li><a href="#equipe">Équipe</a></li>
+            <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+    <ul>
+        <li><a href="#accueil" onclick="closeMobile()">Accueil</a></li>
+        <li><a href="#apropos" onclick="closeMobile()">À propos</a></li>
+        <li><a href="#services" onclick="closeMobile()">Services</a></li>
+        <li><a href="#secteurs" onclick="closeMobile()">Secteurs</a></li>
+        <li><a href="#atouts" onclick="closeMobile()">Atouts</a></li>
+        <li><a href="#equipe" onclick="closeMobile()">Équipe</a></li>
+        <li><a href="#contact" onclick="closeMobile()">Contact</a></li>
+    </ul>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="accueil">
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-visual">
+        <div class="hero-circle"></div>
+        <div class="hero-circle"></div>
+        <div class="hero-circle"></div>
+    </div>
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-shield-halved"></i>
+                Cabinet d'expertise — Zone CIMA & Afrique Centrale
+            </div>
+            <h1>Audit, conformité et <span class="highlight">conseil en assurances</span></h1>
+            <p>EXCESS Consulting Groupe S.A accompagne les institutions, compagnies d'assurances et grandes organisations dans l'audit, la conformité réglementaire et l'optimisation de leurs portefeuilles d'assurances.</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn btn-gold"><i class="fas fa-clipboard-check"></i> Demander un audit</a>
+                <a href="#contact" class="btn btn-outline"><i class="fas fa-envelope"></i> Nous contacter</a>
+            </div>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <h3>148+</h3>
+                    <p>Années d'expérience<br>cumulées</p>
+                </div>
+                <div class="hero-stat">
+                    <h3>4</h3>
+                    <p>Experts<br>associés</p>
+                </div>
+                <div class="hero-stat">
+                    <h3>14</h3>
+                    <p>Pays de la<br>zone CIMA</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES OVERVIEW -->
+<section id="services-overview">
+    <div class="container">
+        <div class="section-header fade-in">
+            <div class="section-label">Nos expertises</div>
+            <h2 class="section-title">Des services à haute valeur ajoutée</h2>
+            <p class="section-subtitle">Nous offrons un accompagnement stratégique et opérationnel aux acteurs du secteur financier et des assurances.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card fade-in">
+                <div class="service-icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+                <h3>Audit des portefeuilles</h3>
+                <p>Évaluation complète et rigoureuse de vos portefeuilles d'assurances pour identifier les risques et optimiser la performance.</p>
+                <a href="#services" class="learn-more">En savoir plus <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card fade-in">
+                <div class="service-icon"><i class="fas fa-scale-balanced"></i></div>
+                <h3>Conformité réglementaire</h3>
+                <p>Analyse et mise en conformité avec les exigences réglementaires de la CIMA et des autorités nationales de régulation.</p>
+                <a href="#services" class="learn-more">En savoir plus <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card fade-in">
+                <div class="service-icon"><i class="fas fa-handshake"></i></div>
+                <h3>Conseil stratégique</h3>
+                <p>Accompagnement personnalisé dans la définition et la mise en œuvre de votre stratégie d'assurance et de gestion des risques.</p>
+                <a href="#services" class="learn-more">En savoir plus <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card fade-in">
+                <div class="service-icon"><i class="fas fa-life-ring"></i></div>
+                <h3>Assistance technique</h3>
+                <p>Support opérationnel pour la gestion quotidienne de vos activités d'assurance et la résolution de problématiques complexes.</p>
+                <a href="#services" class="learn-more">En savoir plus <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card fade-in">
+                <div class="service-icon"><i class="fas fa-coins"></i></div>
+                <h3>Recouvrement</h3>
+                <p>Assistance dans le recouvrement des primes d'assurances et la gestion des créances auprès des assurés et des tiers.</p>
+                <a href="#services" class="learn-more">En savoir plus <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card fade-in">
+                <div class="service-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                <h3>Formation</h3>
+                <p>Programmes de formation spécialisés en assurance, réglementation CIMA et gestion des risques pour vos équipes.</p>
+                <a href="#services" class="learn-more">En savoir plus <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section-light" id="apropos">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-image fade-in-left">
+                <div class="about-image-inner">
+                    <i class="fas fa-building-columns about-image-icon"></i>
+                </div>
+                <div class="about-badge">
+                    <h3>2024</h3>
+                    <p>Année de création</p>
+                </div>
+                <div class="about-image-overlay">
+                    <h4>EXCESS CONSULTING GROUPE S.A</h4>
+                    <p>Cabinet d'expertise technique — Secteur financier & Assurances</p>
+                </div>
+            </div>
+            <div class="about-content fade-in-right">
+                <div class="section-label">Qui sommes-nous</div>
+                <h2>Un cabinet d'expertise au service de l'industrie des assurances</h2>
+                <p>Créé en 2024, <strong>Excess Consulting Groupe S.A</strong> est un cabinet d'expertise technique spécialisé dans le secteur financier et des assurances. Notre équipe réunit des professionnels de premier plan ayant occupé des fonctions de direction au sein des plus hautes instances réglementaires de la zone CIMA.</p>
+                <p>Forts d'une expérience cumulée de plus de 148 ans, nos associés apportent une connaissance approfondie des marchés d'assurance africains, des cadres réglementaires et des meilleures pratiques internationales.</p>
+                <div class="about-values">
+                    <div class="about-value"><i class="fas fa-check-circle"></i> Intégrité</div>
+                    <div class="about-value"><i class="fas fa-check-circle"></i> Excellence</div>
+                    <div class="about-value"><i class="fas fa-check-circle"></i> Innovation</div>
+                    <div class="about-value"><i class="fas fa-check-circle"></i> Proximité</div>
+                </div>
+                <a href="#equipe" class="btn btn-primary" style="margin-top: 25px;"><i class="fas fa-users"></i> Découvrir notre équipe</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- VISION MISSION -->
+<section class="section-dark" id="vision">
+    <div class="container">
+        <div class="section-header fade-in">
+            <div class="section-label">Notre ADN</div>
+            <h2 class="section-title">Vision, Mission & Valeurs</h2>
+            <p class="section-subtitle">Les piliers qui guident notre engagement au service d'une industrie financière solide et assainie.</p>
+        </div>
+        <div class="vm-grid">
+            <div class="vm-card fade-in">
+                <i class="fas fa-eye"></i>
+                <h3>Notre Vision</h3>
+                <p>Contribuer de manière significative à la construction d'une industrie financière sous-régionale solide et assainie, en promouvant les meilleures pratiques d'audit, de conformité et de gouvernance dans le secteur des assurances en Afrique centrale.</p>
+            </div>
+            <div class="vm-card fade-in">
+                <i class="fas fa-bullseye"></i>
+                <h3>Notre Mission</h3>
+                <p>Accompagner les acteurs du secteur financier et des assurances dans l'amélioration continue de leurs performances, la maîtrise des risques et le respect des normes réglementaires, à travers un conseil d'excellence et une expertise de haut niveau.</p>
+            </div>
+            <div class="vm-card fade-in">
+                <i class="fas fa-gem"></i>
+                <h3>Nos Valeurs</h3>
+                <p>Intégrité et transparence dans chaque mission. Excellence opérationnelle et rigueur professionnelle. Proximité et écoute de nos clients. Innovation et adaptation permanente aux évolutions du marché.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES DETAIL -->
+<section id="services">
+    <div class="container">
+        <div class="section-header fade-in">
+            <div class="section-label">Nos services en détail</div>
+            <h2 class="section-title">Des solutions complètes pour chaque besoin</h2>
+            <p class="section-subtitle">Découvrez l'ensemble de nos prestations conçues pour répondre aux enjeux spécifiques de votre organisation.</p>
+        </div>
+
+        <div class="service-detail fade-in">
+            <div class="service-detail-content">
+                <div class="section-label">01</div>
+                <h3>Audit des portefeuilles d'assurances</h3>
+                <p>Nous réalisons des audits approfondis de vos portefeuilles d'assurances pour évaluer leur performance, identifier les risques latents et formuler des recommandations stratégiques.</p>
+                <ul>
+                    <li><i class="fas fa-check"></i> Analyse quantitative et qualitative des polices</li>
+                    <li><i class="fas fa-check"></i> Évaluation des provisions techniques</li>
+                    <li><i class="fas fa-check"></i> Identification des risques de sous-tarification</li>
+                    <li><i class="fas fa-check"></i> Recommandations d'optimisation</li>
+                </ul>
+                <a href="#contact" class="btn btn-gold"><i class="fas fa-clipboard-check"></i> Demander un audit</a>
+            </div>
+            <div class="service-detail-visual sdv-1">
+                <i class="fas fa-chart-pie"></i>
+            </div>
+        </div>
+
+        <div class="service-detail reverse fade-in">
+            <div class="service-detail-content">
+                <div class="section-label">02</div>
+                <h3>Audit de conformité réglementaire</h3>
+                <p>Vérification exhaustive de la conformité de vos opérations aux dispositions du Code CIMA, aux directives des commissions régionales et aux réglementations nationales en vigueur.</p>
+                <ul>
+                    <li><i class="fas fa-check"></i> Revue de la conformité au Code CIMA</li>
+                    <li><i class="fas fa-check"></i> Analyse des obligations prudentielles</li>
+                    <li><i class="fas fa-check"></i> Évaluation du dispositif de contrôle interne</li>
+                    <li><i class="fas fa-check"></i> Plan de mise en conformité personnalisé</li>
+                </ul>
+                <a href="#contact" class="btn btn-gold"><i class="fas fa-scale-balanced"></i> Évaluer ma conformité</a>
+            </div>
+            <div class="service-detail-visual sdv-2">
+                <i class="fas fa-gavel"></i>
+            </div>
+        </div>
+
+        <div class="service-detail fade-in">
+            <div class="service-detail-content">
+                <div class="section-label">03</div>
+                <h3>Assistance technique</h3>
+                <p>Un accompagnement opérationnel sur mesure pour la gestion de vos activités d'assurance, la résolution de problématiques complexes et l'amélioration de vos processus internes.</p>
+                <ul>
+                    <li><i class="fas fa-check"></i> Support dans la gestion des sinistres</li>
+                    <li><i class="fas fa-check"></i> Assistance à la souscription</li>
+                    <li><i class="fas fa-check"></i> Optimisation des processus opérationnels</li>
+                    <li><i class="fas fa-check"></i> Mise en place de procédures de contrôle</li>
+                </ul>
+                <a href="#contact" class="btn btn-gold"><i class="fas fa-life-ring"></i> Demander une assistance</a>
+            </div>
+            <div class="service-detail-visual sdv-3">
+                <i class="fas fa-headset"></i>
+            </div>
+        </div>
+
+        <div class="service-detail reverse fade-in">
+            <div class="service-detail-content">
+                <div class="section-label">04</div>
+                <h3>Conseil stratégique</h3>
+                <p>Nous vous accompagnons dans l'élaboration et la mise en œuvre de stratégies adaptées aux réalités du marché africain des assurances et aux exigences réglementaires.</p>
+                <ul>
+                    <li><i class="fas fa-check"></i> Stratégie de développement commercial</li>
+                    <li><i class="fas fa-check"></i> Conseil en gouvernance d'entreprise</li>
+                    <li><i class="fas fa-check"></i> Étude de marché et positionnement</li>
+                    <li><i class="fas fa-check"></i> Accompagnement aux restructurations</li>
+                </ul>
+                <a href="#contact" class="btn btn-gold"><i class="fas fa-handshake"></i> Prendre rendez-vous</a>
+            </div>
+            <div class="service-detail-visual sdv-4">
+                <i class="fas fa-chess-king"></i>
+            </div>
+        </div>
+
+        <div class="service-detail fade-in">
+            <div class="service-detail-content">
+                <div class="section-label">05</div>
+                <h3>Recouvrement</h3>
+                <p>Assistance spécialisée dans le recouvrement des primes d'assurances impayées et la gestion des créances, pour améliorer votre trésorerie et réduire vos impayés.</p>
+                <ul>
+                    <li><i class="fas fa-check"></i> Diagnostic de la créance</li>
+                    <li><i class="fas fa-check"></i> Mise en place de procédures de relance</li>
+                    <li><i class="fas fa-check"></i> Recouvrement amiable et contentieux</li>
+                    <li><i class="fas fa-check"></i> Suivi et reporting des recouvrements</li>
+                </ul>
+                <a href="#contact" class="btn btn-gold"><i class="fas fa-coins"></i> En savoir plus</a>
+            </div>
+            <div class="service-detail-visual sdv-5">
+                <i class="fas fa-sack-dollar"></i>
+            </div>
+        </div>
+
+        <div class="service-detail reverse fade-in">
+            <div class="service-detail-content">
+                <div class="section-label">06</div>
+                <h3>Formation</h3>
+                <p>Programmes de formation sur mesure destinés aux professionnels de l'assurance, couvrant la réglementation, les techniques d'audit, la gestion des risques et les bonnes pratiques du secteur.</p>
+                <ul>
+                    <li><i class="fas fa-check"></i> Réglementation CIMA et droit des assurances</li>
+                    <li><i class="fas fa-check"></i> Techniques d'audit et de contrôle interne</li>
+                    <li><i class="fas fa-check"></i> Gestion des risques et réassurance</li>
+                    <li><i class="fas fa-check"></i> Formations certifiantes et séminaires</li>
+                </ul>
+                <a href="#contact" class="btn btn-gold"><i class="fas fa-chalkboard-teacher"></i> Demander un programme</a>
+            </div>
+            <div class="service-detail-visual sdv-6">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTORS -->
+<section class="section-light" id="secteurs">
+    <div class="container">
+        <div class="section-header fade-in">
+            <div class="section-label">Nos secteurs cibles</div>
+            <h2 class="section-title">À qui s'adressent nos services ?</h2>
+            <p class="section-subtitle">Nous accompagnons un large éventail d'acteurs du secteur public et privé dans la gestion de leurs enjeux d'assurance.</p>
+        </div>
+        <div class="sectors-grid">
+            <div class="sector-card fade-in">
+                <div class="sector-icon"><i class="fas fa-landmark"></i></div>
+                <h3>Organismes publics</h3>
+                <p>Ministères, établissements publics, collectivités territoriales et organisations internationales.</p>
+            </div>
+            <div class="sector-card fade-in">
+                <div class="sector-icon"><i class="fas fa-building"></i></div>
+                <h3>Entreprises privées</h3>
+                <p>PME, grandes entreprises et multinationales de tous les secteurs d'activité économique.</p>
+            </div>
+            <div class="sector-card fade-in">
+                <div class="sector-icon"><i class="fas fa-shield-halved"></i></div>
+                <h3>Sociétés d'assurances</h3>
+                <p>Compagnies d'assurances, sociétés de réassurance, courtiers et groupes d'assurances de la zone CIMA.</p>
+            </div>
+            <div class="sector-card fade-in">
+                <div class="sector-icon"><i class="fas fa-users"></i></div>
+                <h3>Personnes physiques & morales</h3>
+                <p>Particuliers, associations, fondations et toute entité ayant besoin d'un conseil en assurance.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- STRENGTHS -->
+<section class="section-dark" id="atouts">
+    <div class="container">
+        <div class="section-header fade-in">
+            <div class="section-label">Pourquoi nous choisir</div>
+            <h2 class="section-title">Nos atouts distinctifs</h2>
+            <p class="section-subtitle">Ce qui nous différencie et fait de nous un partenaire de confiance pour vos enjeux d'assurance.</p>
+        </div>
+        <div class="strengths-grid">
+            <div class="strength-card fade-in">
+                <div class="s-icon"><i class="fas fa-ear-listen"></i></div>
+                <h4>Écoute & Proximité</h4>
+                <p>Une approche personnalisée et un accompagnement de proximité pour comprendre vos besoins spécifiques.</p>
+            </div>
+            <div class="strength-card fade-in">
+                <div class="s-icon"><i class="fas fa-award"></i></div>
+                <h4>Expertise spécialisée</h4>
+                <p>Des experts ayant dirigé les plus hautes instances de régulation du secteur en Afrique centrale.</p>
+            </div>
+            <div class="strength-card fade-in">
+                <div class="s-icon"><i class="fas fa-book-open"></i></div>
+                <h4>Maîtrise réglementaire</h4>
+                <p>Connaissance approfondie du Code CIMA, des directives régionales et des législations nationales.</p>
+            </div>
+            <div class="strength-card fade-in">
+                <div class="s-icon"><i class="fas fa-globe-africa"></i></div>
+                <h4>Connaissance du marché</h4>
+                <p>Une compréhension fine des dynamiques et des réalités du marché africain des assurances.</p>
+            </div>
+            <div class="strength-card fade-in">
+                <div class="s-icon"><i class="fas fa-network-wired"></i></div>
+                <h4>Réseau stratégique</h4>
+                <p>Un réseau de contacts institutionnels et professionnels de premier plan dans toute la zone CIMA.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CREDIBILITY / STATS -->
+<section class="section-dark" style="padding-top:0;">
+    <div class="container">
+        <div class="cred-grid">
+            <div class="cred-card fade-in">
+                <h3 id="counter1">148+</h3>
+                <p>Années d'expérience cumulées</p>
+            </div>
+            <div class="cred-card fade-in">
+                <h3>14</h3>
+                <p>Pays de la zone CIMA couverts</p>
+            </div>
+            <div class="cred-card fade-in">
+                <h3>4</h3>
+                <p>Experts associés de renommée</p>
+            </div>
+            <div class="cred-card fade-in">
+                <h3>100%</h3>
+                <p>Engagement & satisfaction client</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TEAM -->
+<section id="equipe">
+    <div class="container">
+        <div class="section-header fade-in">
+            <div class="section-label">Notre équipe</div>
+            <h2 class="section-title">Des experts de renommée internationale</h2>
+            <p class="section-subtitle">Nos associés réunissent plus de 148 années d'expérience cumulées dans le secteur des assurances et de la régulation financière.</p>
+        </div>
+        <div class="team-grid">
+            <div class="team-card fade-in">
+                <div class="team-photo">
+                    <i class="fas fa-user-tie"></i>
+                    <div class="team-photo-overlay">
+                        <span class="team-exp">38 ans d'expérience</span>
+                    </div>
+                </div>
+                <div class="team-info">
+                    <h3>EZOO ENGOLO Blaise</h3>
+                    <span class="team-title">Expert en assurance et régulation</span>
+                    <p>Ancien Secrétaire Général de la CIMA. Ancien Président du Comité des experts. Spécialiste de la régulation du secteur des assurances en Afrique centrale et dans la zone CIMA.</p>
+                </div>
+            </div>
+            <div class="team-card fade-in">
+                <div class="team-photo">
+                    <img src="c:\Users\user\Desktop\assurances\images\WhatsApp Image 2026-03-28 at 5.53.23 PM.jpeg" style="width: 10O0; height: 1000;">
+                    <i class="fas fa-user-tie"></i>
+                    <div class="team-photo-overlay">
+                        <span class="team-exp">40 ans d'expérience</span>
+                    </div>
+                </div>
+                <div class="team-info">
+                    <h3>BOKALLY Emmanuel</h3>
+                    <span class="team-title">Professeur titulaire — Droit des assurances</span>
+                    <p>Spécialiste reconnu du droit des assurances. Ancien jurisconsulte de la CRCA/CIMA. Auteur de nombreuses publications et expert référent dans la zone CIMA.</p>
+                </div>
+            </div>
+            <div class="team-card fade-in">
+                <div class="team-photo">
+                    <img src="c:\Users\user\Desktop\assurances\images\jean-claude-ngwba-1.jpg" alt="">
+                    <i class="fas fa-user-tie"></i>
+                    <div class="team-photo-overlay">
+                        <span class="team-exp">40 ans d'expérience</span>
+                    </div>
+                </div>
+                <div class="team-info">
+
+                    <h3>NGBWA Jean Claude</h3>
+                    <span class="team-title">Expert en régulation financière</span>
+                    <p>Ancien Secrétaire Général de la CIMA. Ancien Président de la Commission des marchés financiers de la CEMAC. Figure emblématique de la régulation financière sous-régionale.</p>
+                    <img src="" alt="">
+                </div>
+            </div>
+            <div class="team-card fade-in">
+                <div class="team-photo">
+                    <img src="c:\Users\user\Desktop\assurances\images\1734694888964-e1734705745140-727x580.jpg" alt="">
+                    <i class="fas fa-user-tie"></i>
+                    <div class="team-photo-overlay">
+                        <span class="team-exp">30 ans d'expérience</span>
+                    </div>
+                </div>
+                <div class="team-info">
+                    <h3>ZOUA Barthélemy</h3>
+                    <span class="team-title">Expert en réassurance</span>
+                    <p>Ancien Directeur régional de CICARE Afrique Centrale. Expert en réassurance et gestion des risques avec une expertise reconnue dans les marchés africains.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+    <div class="container fade-in">
+        <h2>Prêt à renforcer votre conformité ?</h2>
+        <p>Contactez nos experts dès aujourd'hui pour un diagnostic personnalisé de vos besoins en audit et conseil en assurances.</p>
+        <div class="cta-btns">
+            <a href="#contact" class="btn btn-primary"><i class="fas fa-clipboard-check"></i> Demander un audit gratuit</a>
+            <a href="#contact" class="btn btn-outline" style="border-color: var(--primary); color: var(--primary);"><i class="fas fa-phone"></i> Appeler un expert</a>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <div class="container">
+        <div class="section-header fade-in">
+            <div class="section-label">Contactez-nous</div>
+            <h2 class="section-title">Parlons de votre projet</h2>
+            <p class="section-subtitle">Remplissez le formulaire ci-dessous ou contactez-nous directement. Notre équipe vous répondra dans les 24 heures.</p>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-info-cards fade-in-left">
+                <div class="contact-info-card">
+                    <div class="cic-icon"><i class="fas fa-phone"></i></div>
+                    <div>
+                        <h4>Téléphone</h4>
+                        <p>+237 6XX XXX XXX</p>
+                        <p>+237 6XX XXX XXX</p>
+                    </div>
+                </div>
+                <div class="contact-info-card">
+                    <div class="cic-icon"><i class="fas fa-envelope"></i></div>
+                    <div>
+                        <h4>Email</h4>
+                        <p>contact@excessconsulting.com</p>
+                        <p>info@excessconsulting.com</p>
+                    </div>
+                </div>
+                <div class="contact-info-card">
+                    <div class="cic-icon"><i class="fas fa-location-dot"></i></div>
+                    <div>
+                        <h4>Siège social</h4>
+                        <p>Douala, Cameroun<br>Zone CIMA — Afrique Centrale</p>
+                    </div>
+                </div>
+                <div class="contact-info-card">
+                    <div class="cic-icon"><i class="fas fa-clock"></i></div>
+                    <div>
+                        <h4>Horaires</h4>
+                        <p>Lundi – Vendredi : 8h00 – 17h30<br>Samedi : 9h00 – 13h00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form fade-in-right" id="contactForm">
+                <h3><i class="fas fa-paper-plane" style="color:var(--gold); margin-right:10px;"></i>Demander une consultation</h3>
+                <form onsubmit="handleSubmit(event)">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Nom complet *</label>
+                            <input type="text" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Entreprise</label>
+                            <input type="text" placeholder="Nom de votre entreprise">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Email *</label>
+                            <input type="email" placeholder="votre@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Téléphone</label>
+                            <input type="tel" placeholder="+237 6XX XXX XXX">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Service souhaité</label>
+                        <select>
+                            <option value="">Sélectionnez un service</option>
+                            <option value="audit-portefeuille">Audit des portefeuilles d'assurances</option>
+                            <option value="audit-conformite">Audit de conformité réglementaire</option>
+                            <option value="assistance">Assistance technique</option>
+                            <option value="conseil">Conseil stratégique</option>
+                            <option value="recouvrement">Recouvrement</option>
+                            <option value="formation">Formation</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Message *</label>
+                        <textarea placeholder="Décrivez votre besoin ou votre projet..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-gold btn-submit"><i class="fas fa-paper-plane"></i> Envoyer ma demande</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- MAP -->
+<div class="map-section">
+    <i class="fas fa-map-marked-alt"></i>
+    <div class="map-overlay">
+        <h4><i class="fas fa-location-dot" style="color:var(--gold); margin-right:5px;"></i> EXCESS CONSULTING GROUPE S.A</h4>
+        <p>Douala, Cameroun — Zone CIMA, Afrique Centrale</p>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col footer-brand">
+                <a href="#accueil" class="logo">EXCESS <span>CONSULTING</span></a>
+                <p>Cabinet d'expertise technique spécialisé dans le secteur financier et des assurances. Audit, conformité réglementaire et conseil stratégique en zone CIMA et Afrique centrale.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="href=wa.me/237657509780" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#apropos">À propos</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#secteurs">Secteurs</a></li>
+                    <li><a href="#equipe">Notre équipe</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">Audit portefeuilles</a></li>
+                    <li><a href="#services">Conformité réglementaire</a></li>
+                    <li><a href="#services">Assistance technique</a></li>
+                    <li><a href="#services">Conseil stratégique</a></li>
+                    <li><a href="#services">Recouvrement</a></li>
+                    <li><a href="#services">Formation</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p><i class="fas fa-location-dot" style="color:var(--gold); margin-right:8px;"></i>Douala, Cameroun</p>
+                <p><i class="fas fa-phone" style="color:var(--gold); margin-right:8px;"></i>+237 6XX XXX XXX</p>
+                <p><i class="fas fa-envelope" style="color:var(--gold); margin-right:8px;"></i>contact@excessconsulting.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 – 2026 EXCESS CONSULTING GROUPE S.A. Tous droits réservés.</p>
+            <p>Conçu avec <i class="fas fa-heart" style="color:var(--gold);"></i> en Afrique Centrale</p>
+        </div>
+    </div>
+</footer>
+
+<!-- SCROLL TOP -->
+<button class="scroll-top" id="scrollTop" aria-label="Retour en haut">
+    <i class="fas fa-chevron-up"></i>
+</button>
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/237657509780" class="whatsapp-btn" target="_blank" rel="noopener" aria-label="Contactez-nous sur WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- SUCCESS MODAL -->
+<div class="modal-overlay" id="successModal">
+    <div class="modal">
+        <i class="fas fa-check-circle"></i>
+        <h3>Demande envoyée !</h3>
+        <p>Merci pour votre message. Notre équipe vous contactera dans les 24 heures ouvrables.</p>
+        <button class="btn btn-gold" onclick="closeModal()">Fermer</button>
+    </div>
+</div>
+
+<!-- <script>
+    // Preloader
+    window.addEventListener('load', () => {
+        setTimeout(() => {
+            document.getElementById('preloader').classList.add('hidden');
+        }, 800);
+    });
+
+    // Particles
+    const particlesEl = document.getElementById('particles');
+    for (let i = 0; i < 30; i++) {
+        const p = document.createElement('div');
+        p.className = 'particle';
+        p.style.left = Math.random() * 100 + '%';
+        p.style.top = Math.random() * 100 + '%';
+        p.style.animationDelay = Math.random() * 8 + 's';
+        p.style.animationDuration = (6 + Math.random() * 6) + 's';
+        p.style.width = (2 + Math.random() * 3) + 'px';
+        p.style.height = p.style.width;
+        particlesEl.appendChild(p);
+    }
+
+    // Navbar scroll
+    const nav = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+        nav.classList.toggle('scrolled', window.scrollY > 50);
+        document.getElementById('scrollTop').classList.toggle('visible', window.scrollY > 500);
+    });
+
+    // Active nav link
+    const sections = document.querySelectorAll('section[id]');
+    const navLinksAll = document.querySelectorAll('.nav-links a:not(.nav-cta)');
+    window.addEventListener('scroll', () => {
+        let current = '';
+        sections.forEach(s => {
+            const top = s.offsetTop - 150;
+            if (window.scrollY >= top) current = s.getAttribute('id');
+        });
+        navLinksAll.forEach(a => {
+            a.classList.remove('active');
+            if (a.getAttribute('href') === '#' + current) a.classList.add('active');
+        });
+    });
+
+    // Mobile menu
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        mobileMenu.classList.toggle('active');
+        document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
+    });
+    function closeMobile() {
+        hamburger.classList.remove('active');
+        mobileMenu.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    // Scroll to top
+    document.getElementById('scrollTop').addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Intersection Observer for animations
+    const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+    document.querySelectorAll('.fade-in, .fade-in-left, .fade-in-right').forEach(el => observer.observe(el));
+
+    // Form submit
+    function handleSubmit(e) {
+        e.preventDefault();
+        document.getElementById('successModal').classList.add('active');
+    }
+    function closeModal() {
+        document.getElementById('successModal').classList.remove('active');
+    }
+    document.getElementById('successModal').addEventListener('click', (e) => {
+        if (e.target === e.currentTarget) closeModal();
+    });
+
+    // Smooth scroll for all anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+        a.addEventListener('click', (e) => {
+            const target = document.querySelector(a.getAttribute('href'));
+            if (target) {
+                e.preventDefault();
+                const offset = 80;
+                const top = target.offsetTop - offset;
+                window.scrollTo({ top, behavior: 'smooth' });
+            }
+        });
+    });
+</script> -->
+
+</body>
+</html>
